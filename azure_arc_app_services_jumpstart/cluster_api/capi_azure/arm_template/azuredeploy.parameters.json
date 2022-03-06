@@ -3,16 +3,17 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "sshRSAPublicKey": {
-            "value": "<your RSA public key>"
+            "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDearvUvHLXsrhBqaaXTv83ufo2AJN9c/lyJ/80Qu2mkMn4n6YO01J3SYQay21qWGWSsgMc+9eFgrbeVypEiBNBjxEJXQ/Q8uYbOntVM3GTyI4IniLDUJjQQfD3LQmZc9esLyn8higN2lVEjg68QZEkHE2bY69qUd25vbr42ql5REl9tebVzCykLc65PpxVWheSMc1F5j5ZhDnJIjBK7StnYMjDn4f5HRj9XTtud8DU77BAXDQicZkOMv+/RIXpkUtzqMedFytTtgxGYUU91KA5xGIcS+ghbeQ5DlpsLnDCGnPknjxxI23jof3jHruIhkrApiFpCl/Z1xZPcVE+52y6/PLuSzRSM55ROPMjI2u1FULfXmNbbI8aWYPIWfdi46kS1uZrzXfzaI3X0gqAz31mao11lhUByPcDr1VbrIxmeFddxxpCQK3l/2OZyz1P4dT3mB3CcZfA2VbfWjp0IhEDi/c3vdd4qcC0J14Pr6F8jU0czNOVkmbqY22OvIDvh75wI2C0hSZMeBxnnHbzWTNq4vXhrwaY9/IMCMyrOiEYA4hxm/QHMXQVtggkmIdiaWGhBeaSX8Z3c0wW81gJN0tcxjVZZBm4w8+Ia+I99SF2tyhgqs3FWagHfvBK/uilPYp5i2wlEEP5q3WCgurVASS0Xjtpefm3rOcysL3ksT1ygQ== ArcJumpstartArcAS
+"
         },
         "spnClientId": {
-            "value": "<your service principal client id>"
+            "value": "edb1f88d-501c-4b10-bc55-91991bb6fd71"
         },
         "spnClientSecret": {
-            "value": "<your service principal secret>"
+            "value": "qn.~5i9L-5J8FfwRhkz14bxOZSIR_rQrJT"
         },
         "spnTenantId": {
-            "value": "<your spn tenant id>"
+            "value": "774a6561-5a21-43fd-b949-7b07cef0b76a"
         },
         "windowsAdminUsername": {
             "value": "arcdemo"
@@ -21,13 +22,13 @@
             "value": "ArcPassword123!!"
         },
         "myIpAddress": {
-            "value": "<your local public IP address>"
+            "value": "105.195.97.244"
         },
         "logAnalyticsWorkspaceName": {
-            "value": "<your unique Log Analytics workspace name>"
+            "value": "LAWorkspaceJSArcAS"
         },
         "deployAppService": {
-            "value": false
+            "value": true
         },
         "deployFunction": {
             "value": false
@@ -42,7 +43,7 @@
             "value": "https://raw.githubusercontent.com/microsoft/azure_arc/main/azure_arc_app_services_jumpstart/cluster_api/capi_azure/arm_template/"
         },
         "adminEmail": {
-            "value": "<youremail@email.com>"
+            "value": "pennsyl@hotmail.com"
         }
     }
 }
