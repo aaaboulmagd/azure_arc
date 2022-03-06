@@ -40,7 +40,7 @@
             "value": false
 	    },
         "templateBaseUrl": {
-            "value": "https://raw.githubusercontent.com/microsoft/azure_arc/main/azure_arc_app_services_jumpstart/cluster_api/capi_azure/arm_template/"
+            "value": "https://github.com/aaaboulmagd/azure_arc/main/azure_arc_app_services_jumpstart/cluster_api/capi_azure/arm_template/"
         },
         "adminEmail": {
             "value": "pennsyl@hotmail.com"
