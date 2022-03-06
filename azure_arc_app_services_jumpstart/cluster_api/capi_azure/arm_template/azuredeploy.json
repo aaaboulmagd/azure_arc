@@ -99,7 +99,6 @@
     "mgmtStagingStorageUrl": "[uri(parameters('templateBaseUrl'), 'mgmtStagingStorage.json')]",
     "logAnalyticsUrl": "[uri(parameters('templateBaseUrl'), 'logAnalytics.json')]",
     "VNETUrl": "[uri(parameters('templateBaseUrl'), 'VNET.json')]",
-    // Virtual Network configuration
     "virtualNetworkName": "Arc-App-CAPI-VNet",
     "subnetName": "Arc-App-CAPI-Subnet",
     "addressPrefix": "172.16.0.0/16",
